@@ -311,7 +311,9 @@ nav.menu-principal ul li a {
 footer.footer {
     margin-top: 10rem;
 }
-
+nav.menu-principal ul li {
+    text-align: center;
+}
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
     -webkit-appearance: button;
     cursor: pointer;
@@ -385,11 +387,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 .knopka-kovad-form textarea {
     resize: vertical;
 }  
-.knopka-kovad-body {
-    padding: 0px 20px 0 20px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
-}  
 .knopka-kovad-button {
     padding-top: 10px;
     text-align: right;
@@ -448,6 +445,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     border: 1px solid rgba(150,150,150,.3);
     padding: 12px;
     font-size: 14px;
+    box-sizing: border-box;
 }
 .knopka-kovad-title p, .knopka-kovad-body p {
     margin: 0px;
@@ -456,13 +454,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 .wpcf7-form-control.wpcf7-submit {
     font-size: 13px;
     display: block;
-    width: 90%;
-    margin: 0 auto;
-}
-.wpcf7-form-control.wpcf7-submit {
-    font-size: 13px;
-    display: block;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     min-width: auto;
 }
@@ -471,3 +463,31 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
         font-size: 20px;
     }
 }
+.whatsapp-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25d366;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px 25px;
+    text-decoration: none;
+    max-width: 300px;
+    margin: 25px auto 0;
+  }
+.whatsapp-btn:hover {
+    background-color: #128c7e;
+}
+  
+.whatsapp-btn i {
+    font-size: 22px;
+    margin-right: 8px;
+}  
+.whatsapp-btn span {
+    margin-top: 2px;
+}
+  
+  

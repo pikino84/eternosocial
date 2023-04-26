@@ -10,7 +10,7 @@
 
         wp_nav_menu($args);
         ?> 
-        <p class="copyright">Todos los derechos reservado.  <?php echo get_bloginfo('name') . " " . date('Y'); ?> </p>
+        <p class="copyright text-center">Todos los derechos reservado.  <?php echo get_bloginfo('name') . " " . date('Y'); ?> </p>
     </div>
 </footer>
         <?php wp_footer(); ?>
